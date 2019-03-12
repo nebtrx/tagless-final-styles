@@ -17,6 +17,8 @@ scalacOptions ++= Seq(
 libraryDependencies += "org.typelevel" %% "cats-core" % "1.6.0"
 libraryDependencies += "org.typelevel" %% "cats-effect" % "1.2.0"
 libraryDependencies += "com.github.mpilquist" %% "simulacrum" % "0.15.0"
+libraryDependencies += "org.scalaz" %% "scalaz-zio" % "0.11"
+libraryDependencies += "org.scalaz" %% "scalaz-zio-interop-cats" % "0.11"
 
 addCompilerPlugin("org.spire-math" %% "kind-projector" % "0.9.9")
 addCompilerPlugin("com.olegpy" %% "better-monadic-for" % "0.2.4")
